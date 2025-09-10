@@ -122,11 +122,6 @@ function App() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* Chapter Indicator */}
-      <div className="chapter-indicator">
-        Chapter {currentChapter} of 6
-      </div>
-
       {/* Hero Section */}
       <section id="hero" className="hero-section min-h-screen flex items-center justify-center px-4">
         <div className="max-w-6xl mx-auto text-center">
